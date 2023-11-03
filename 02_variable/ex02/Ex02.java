@@ -8,7 +8,7 @@ public class Ex02 {
 		// 2.
 		Scanner sc = new Scanner(System.in);
 		System.out.print("문자 하나를 입력하세요 : ");
-		char ch1 = sc.next().charAt(0);
+		char ch1 = sc.next().charAt(1);
 		/*
 		int reCh1 = ch1;
 		System.out.println(ch1 + "의 unicode : " + reCh1);

@@ -1,4 +1,4 @@
-package exception01;
+package ex10;
 
 public class Member {
 	private String name;

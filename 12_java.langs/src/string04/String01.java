@@ -1,9 +1,9 @@
-package object01;
+package string04;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class String07 {
+public class String01 {
 
 	public static void main(String[] args) {
 		byte[] bytes = {72, 101, 108, 108, 111, 32, 74, 97, 118, 97};
@@ -49,7 +49,7 @@ public class String07 {
 		// replace(char old, char newChar) : 글자를 변경하여 문자열로 반환
 		System.out.println(str5.replace('a', 'e'));
 		
-		// split(String regex) : regex를 기준으로 나누어 배열로 반환
+		// split(String regex, int limit) : regex를 기준으로 나누어 배열로 반환
 		String str7 = "Cat/Dog/Hamster/Bear";
 		String[] strArr = str7.split("/");
 		System.out.println(Arrays.toString(strArr));
@@ -71,15 +71,32 @@ public class String07 {
 		
 		123456-1****** 출력하기
 		*/
-		
+		/*
 		Scanner sc = new Scanner(System.in);
-		System.out.print("주민번호 입력(-포함_: ");
+		System.out.print("주민번호 입력(-포함) : ");
 		String jumin = sc.next();
-		String front = jumin.substring(0, 8);
 		
-//		String reJumin = jumin.substring(0,8)+ "*******";
-//		System.out.println(reJumin);
+		String reJumin = jumin.substring(0, 8) + "******";		
+		System.out.println(reJumin);
 		
-		System.out.println(jumin.substring(0, 8)+ "*******");
-		}
+		System.out.println(jumin.substring(0, 8) + "******");
+		*/
+		// trim() : 앞,뒤의 공백제거
+		String stTrim = "     kim";
+		String stTrim2 = "kim     ";
+		System.out.println(stTrim);
+		System.out.println(stTrim2 + ";");
+		System.out.println("----------------------------");
+		
+		System.out.println(stTrim.trim());
+		System.out.println(stTrim2.trim() + ";");
+		System.out.println("----------------------------");
+		
+		String stTrim3 = "     kim     ";
+		System.out.println(stTrim3 + ";");
+		System.out.println(stTrim3.trim() + ";");
+		
+		String stTrim4 = "     kim    Hong   Lee    ";
+		System.out.println(stTrim4.trim() + ";");		
 	}
+}

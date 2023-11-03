@@ -1,8 +1,8 @@
-package object01;
+package system03;
 
 import java.util.Scanner;
 
-public class System06 {
+public class System01 {
 
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();

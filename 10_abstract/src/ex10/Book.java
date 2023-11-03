@@ -1,12 +1,12 @@
-package exception01;
+package ex10;
 
-public class Book {
-	String title;
-	String author;
-	String publisher;
+public class Book{
+	private String title;
+	private String author;
+	private String publisher;
 	
-	Book(){}
-	Book(String title, String author, String publisher){
+	Book() {}
+	Book(String title , String author , String publisher) {
 		this.title = title;
 		this.author = author;
 		this.publisher = publisher;
@@ -30,9 +30,9 @@ public class Book {
 	public void setPublisher(String publisher) {
 		this.publisher = publisher;
 	}
+	
 	@Override
 	public String toString() {
-		return "도서명 :"  + title + ", 저자명 :" + author + ", 출판사명: " + publisher;
-	}
-	
+		return "도서명 : " + title + ", 저자명 : " + author + ", 출판사명 : " + publisher;
+	}	
 }
