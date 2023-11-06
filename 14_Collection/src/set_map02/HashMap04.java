@@ -2,7 +2,7 @@ package set_map02;
 
 import java.util.*;
 
-public class Map04 {
+public class HashMap04 {
 
 	public static void main(String[] args) {
 		// 키는 중복 불가, 값은 중복 가능
