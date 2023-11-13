@@ -8,10 +8,10 @@ public class Calculator01 {
 		Multiply multiply = new Multiply();
 		Divide divide = new Divide();
 		
-		System.out.println(add.Add(3, 5));
-		System.out.println(subtract.Subtract(4, 9));
-		System.out.println(multiply.Multiply(6, 8));
-		System.out.println(divide.Divide(70, 5));
+		System.out.println(add.add(3, 5));
+		System.out.println(subtract.subtract(4, 9));
+		System.out.println(multiply.multiply(6, 8));
+		System.out.println(divide.divide(70, 5));
 	}
 
 }
